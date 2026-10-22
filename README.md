@@ -1,4 +1,4 @@
-# Server Identity & Access Management
+# Windows Server Identity & Access Management
 
 ![Polarized Systems — Enterprise Network Architecture](images/enterprise-topology.png)
 
