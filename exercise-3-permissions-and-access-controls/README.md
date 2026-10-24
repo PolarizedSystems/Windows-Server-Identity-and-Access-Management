@@ -50,7 +50,9 @@ In this exercise, I explored **delegation of control in Active Directory** to di
 
    ![Delegation complete](screenshots/exercise-3/e3-06-delegation-complete.png)
 
-> 🔎 **What this account can and can't do now.** Ron Simmons can create, manage, and reset passwords for user accounts in this container — the day-to-day work of a help-desk or junior admin. What he *can't* do is modify group policy, touch domain controllers, or alter the domain's structure, because none of those rights were delegated. That gap is the whole point: capability matched precisely to need.
+> 🔎 **Ron Simmons can manage user accounts and reset passwords within the designated Active Directory container, but cannot modify Group Policy or administer domain controllers.
+
+This demonstrates least privilege by limiting access to assigned responsibilities..
 
 ---
 
