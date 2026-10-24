@@ -128,7 +128,7 @@ In this exercise, I explored **Active Directory Users and Computers (ADUC)** to 
 
     ![Member of updated](screenshots/exercise-2/e2-24-member-of-updated.png)
 
-> 🔎 **A note on least privilege.** Adding an account to **Administrators** grants broad, powerful rights — appropriate here to demonstrate group-based access, but in production that membership is handed out sparingly and reviewed regularly. The principle is to grant the *least* access a role needs, and groups make it just as easy to keep access tight as to grant it broadly.
+> 🔎 **Adding a user to the Administrators group grants elevated system privileges. While this demonstrates group-based access control in our lab, production environments should restrict administrative access to authorized personnel. Following the principle of least privilege, users should receive only the permissions necessary to perform their responsibilities, with access reviewed regularly.
 
 ---
 
