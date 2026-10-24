@@ -33,8 +33,6 @@ The strength comes from combining **different** categories — a password (*know
 
 So much sensitive data now lives on personal computers and phones — banking, messages, contacts — that password-only protection simply doesn't hold up against modern, automated attacks. MFA is the practical, widely-adopted answer: a reliable way to protect accounts well beyond what any password can do on its own.
 
-> 🔎 **This connects to the smart-card MFA already in the portfolio.** In the Security Operations portfolio I enforced *smart-card-required* logon on an Active Directory account — a concrete, Windows-native implementation of the "something you have" factor. That exercise is MFA put into practice; this one is the framework that explains why it works and where it fits.
-
 ---
 
 ## Single Sign-On (SSO)
@@ -44,8 +42,6 @@ Single sign-on lets a user authenticate **once** and then reach many different s
 For organizations of any size, SSO streamlines the administration of credentials: accounts are managed in one place, access can be granted or revoked centrally, and users stop reusing weak passwords across a dozen systems just to cope with the sprawl.
 
 A common framework behind modern SSO is **OAuth (Open Authorization)**. OAuth lets a third-party service access a user's data *without ever handling the user's password*. It works through an approved **access token**: the user consents, the token is issued, and OAuth acts as the mediator between the user and the service. When the user goes to open an application, the service contacts the identity provider, the provider validates the user, and access is granted — all without the password changing hands.
-
-> 🔎 **MFA and SSO are complementary, not competing.** SSO concentrates access behind a single identity, which is convenient — but it also means that one login now unlocks many systems, raising the stakes of that login. That's exactly why SSO and MFA are deployed together: SSO reduces how many times a user authenticates, and MFA makes each of those authentications strong enough to be trusted with the keys to everything behind it.
 
 ---
 
