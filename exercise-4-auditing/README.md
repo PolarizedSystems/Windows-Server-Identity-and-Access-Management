@@ -246,7 +246,7 @@ In this exercise, I explore **Windows security auditing** to monitor user activi
     ![Account management audit configured](screenshots/exercise-4/e4-52-account-management-audit-configured.png)
 
 > 🔎 **Monitoring security group membership changes helps detect privilege escalation and unauthorized access.
-> Windows Security Events 4728 and 4732 record additions to security groups, providing valuable evidence for SIEM monitoring and security investigations.
+> Windows Security Events 4728 and 4732 record additions to security groups, providing valuable evidence for SIEM monitoring and security investigations.**
 
 ---
 
