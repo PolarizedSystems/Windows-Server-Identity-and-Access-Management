@@ -8,8 +8,6 @@
 
 Controlling *who* can access a system is only half the job; the other half is protecting the *data* itself — before the operating system even loads, while it sits at rest, and as it travels across the network. This exercise rounds out the lab by looking at data security from the ground up: securing the boot process, choosing where and how data is stored and encrypted, and weighing the cost of protecting data against the risk of losing it.
 
-> 🔎 **Why this exercise is concept-focused.** Like the previous module, this is knowledge rather than click-through configuration — the decisions here (storage strategy, encryption standards, risk posture) are organizational and architectural, not a single server setting. It's the reasoning a server administrator is expected to bring to design discussions and interviews, and it ties directly to the BitLocker encryption already demonstrated in the Security Operations portfolio.
-
 ---
 
 ## 1. Boot-Level Security: BIOS, UEFI & the Bootloader
@@ -17,8 +15,6 @@ Controlling *who* can access a system is only half the job; the other half is pr
 One of the most overlooked moments of vulnerability is the one before the operating system even starts. When a machine powers on, its firmware — the legacy **BIOS** or its modern replacement, **UEFI** — runs the Power-On Self-Test, checks the attached hardware, and hands off to the bootloader that starts the OS. Anyone who can reach that firmware menu can change the boot order, disable security features, or boot from their own media.
 
 Setting a **BIOS/UEFI password** closes that door: it stops an unauthorized person from altering firmware settings or booting the machine from an external drive. A separate **bootloader password** adds another layer, blocking tricks like dropping into single-user mode to reset the root password. Both should be set as early as possible in a server's life.
-
-> 🔎 **A caveat worth knowing.** A bootloader password protects the machine *locally* — it does nothing for a remote session, and if the server reboots (say, after patching), someone physically present has to enter it. It also must not be lost, because forgetting it can block the OS from booting entirely. Security controls always carry operational trade-offs, and recognizing them is part of applying them well.
 
 ---
 
@@ -37,8 +33,6 @@ Most organizations use both, keeping the most sensitive data under their own con
 
 - **Data at rest** is stored data not currently in use — the live copy plus every backup and archive. Full-drive encryption with tools like **BitLocker** (or EFS, VeraCrypt, File Vault) keeps it unreadable if a disk is removed or stolen. The general rule: encrypt the whole drive rather than one file at a time, so nothing sensitive is accidentally left in the clear. This protects the data's **confidentiality, integrity, and authenticity**.
 - **Data in transit** is data moving between systems. Left unprotected, many protocols send it in clear text — plain **HTTP** on port 80 is readable by anyone sniffing the wire. Adding **SSL/TLS** turns it into **HTTPS** on port 443, defeating sniffing, man-in-the-middle, and eavesdropping. A **VPN** extends the same idea to all traffic, wrapping it in an encrypted tunnel across the public internet.
-
-> 🔎 **This is the "why" behind the BitLocker lab.** In Security Operations I encrypted a data volume with BitLocker to protect PII at rest. This module is the framework that names *why* — data at rest is one of the two states every piece of data passes through, and encryption is the control that protects it in both.
 
 ### Encryption algorithms: symmetric vs. asymmetric
 
@@ -81,8 +75,6 @@ Security spending is ultimately a balance against risk, and there are four stand
 - **Transference** – shift the risk to someone else, such as cyber-insurance or a managed provider
 
 The right choice weighs the cost of the safeguard against the potential loss — and a data breach's cost is rarely just the cleanup. It includes reputational damage and regulatory fines, which is exactly why security is treated as a business investment, not just an IT expense.
-
-> 🔎 **This is where security meets the boardroom.** Every control in this lab — password policies, encryption, auditing — is ultimately justified in these terms: what does it cost, and what loss does it prevent? Being able to frame security as risk-and-cost, not just technology, is what separates a technician from someone trusted to make security decisions.
 
 ---
 
