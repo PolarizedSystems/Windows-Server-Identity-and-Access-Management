@@ -75,13 +75,6 @@ Security spending is ultimately a balance against risk, and there are four stand
 - **Transference** – shift the risk to someone else, such as cyber-insurance or a managed provider
 
 The right choice weighs the cost of the safeguard against the potential loss — and a data breach's cost is rarely just the cleanup. It includes reputational damage and regulatory fines, which is exactly why security is treated as a business investment, not just an IT expense.
-
----
-
-> ### 🎤 Stakeholder Takeaway
->
-> "Protecting data isn't one control — it's a chain that runs from the moment a server powers on to the day data is destroyed. We lock down the boot process, encrypt data both where it's stored and while it moves, and decide deliberately what's worth keeping and what isn't. And we make those calls the way the business does: by weighing what protection costs against what a breach would cost us in dollars, downtime, reputation, and fines. That's how security spending stops being a guess and starts being a justified investment."
-
 ---
 
 [← Previous: Exercise 5 – Multifactor Authentication & Single Sign-On](../exercise-5-multifactor-authentication-and-single-sign-on/README.md) | [Back to Lab Overview](../README.md)
