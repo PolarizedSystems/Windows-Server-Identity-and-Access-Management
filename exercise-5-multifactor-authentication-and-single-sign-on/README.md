@@ -6,10 +6,17 @@
 
 ## Overview
 
-Everything in the previous exercises strengthens a single factor: the password. But a password — however long or complex — is still one secret, and one secret can be stolen, phished, or guessed. This exercise looks at the two identity controls that address that limitation from opposite directions: **multifactor authentication**, which adds factors so a stolen password alone isn't enough, and **single sign-on**, which reduces the number of credentials a user has to juggle in the first place.
+**Multifactor Authentication (MFA)** and **Single Sign-On (SSO)** are essential components of modern Identity and Access Management (IAM). MFA strengthens account security by requiring multiple forms of identity verification, while SSO simplifies access by allowing users to authenticate once and access multiple applications.
 
-> 🔎 **Why this exercise is concept-focused.** The earlier exercises were hands-on configuration on the domain controller. This one is the knowledge capstone — multifactor authentication and single sign-on are architectural decisions that usually involve an identity provider, directory federation, or a cloud platform rather than a single server setting, so they're covered here as concepts to understand rather than a dialog box to click through. What follows is the reasoning a server administrator needs when these controls come up in design and in interviews.
+In this exercise, I explored how these authentication technologies improve security and simplify access management across enterprise environments.
 
+**Key Learning Objectives:**
+
+- **Multifactor Authentication (MFA):** Understand how additional authentication factors protect user accounts.
+- **Single Sign-On (SSO):** Explore how centralized authentication simplifies access to multiple applications.
+- **Identity Security:** Understand how MFA and SSO balance stronger security with user convenience.
+
+This exercise builds foundational knowledge of enterprise authentication, identity protection, and access management.
 ---
 
 ## Multifactor Authentication (MFA)
