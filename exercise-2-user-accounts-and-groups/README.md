@@ -6,12 +6,18 @@
 
 ## Overview
 
-Every person and service that touches a network needs an identity, and in a Windows domain that identity is an **Active Directory account**. Managing those accounts well — creating them cleanly, setting the right options, and granting access through **groups** rather than one user at a time — is what keeps access organized as an organization grows. Groups are the shortcut that scales: assign a permission to a group once, and every member inherits it, so access is managed by role instead of by endless individual edits.
+**Active Directory (AD)** provides centralized management of user accounts, computer accounts, and security groups across an enterprise network. Through **Role-Based Access Control (RBAC)**, administrators can assign permissions based on job responsibilities while reducing unnecessary access to sensitive resources.
 
-In this exercise I created a domain user in Active Directory, configured its account options, and granted it access by adding it to the appropriate security groups.
+In this exercise, I explored **Active Directory Users and Computers (ADUC)** to manage user identities, group memberships, and access permissions within a Windows domain.
 
-> 🔎 **Why groups instead of per-user permissions?** Picture granting the same five permissions to forty people one account at a time — then revoking them when someone changes roles. Groups collapse that into a single action: put the user in the group, and they get everything the group grants; remove them, and it's all gone at once. It's the backbone of role-based access control and the reason AD scales to thousands of users.
+**Key Configuration Activities:**
 
+- **User Management:** Create and configure Active Directory user accounts.
+- **Computer Management:** Manage domain-joined computer accounts.
+- **Security Groups:** Organize users into groups for centralized permission management.
+- **Access Control:** Apply role-based permissions to support the principle of least privilege.
+
+This exercise demonstrates practical experience in Windows Server administration, Active Directory management, and enterprise identity and access control.
 ## Device
 
 - **corp-dc-001** – Windows Server – Domain Controller / Active Directory Users and Computers (192.168.20.2)
