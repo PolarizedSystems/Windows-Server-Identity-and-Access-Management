@@ -8,7 +8,7 @@
 
 **Password and account lockout policies** are essential security controls that protect enterprise systems against unauthorized access and password-guessing attacks. Properly configured policies help balance strong account security with user accessibility.
 
-> **In this exercise, I configured **Active Directory password and account lockout policies** using Windows Group Policy Management.**
+ **In this exercise, I configured **Active Directory password and account lockout policies** using Windows Group Policy Management.**
 
 **Key Configuration Activities:**
 
