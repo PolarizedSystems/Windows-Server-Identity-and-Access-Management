@@ -6,12 +6,18 @@
 
 ## Overview
 
-Not every administrative task should require a full administrator. A help-desk technician who resets passwords all day doesn't need the keys to the entire domain — they need exactly enough authority to do that one job, and nothing more. Active Directory's **Delegation of Control** makes that possible: it hands a specific user or group a narrow, well-defined slice of administrative rights over a chosen part of the directory, without ever promoting them to Domain Admin.
+**Permissions and access controls** are essential for securing enterprise infrastructure and ensuring users have appropriate access to network resources. Through **Active Directory delegation**, administrators can assign specific administrative responsibilities without granting full system privileges.
 
-In this exercise I delegated a focused set of user-management rights to an account, granting it the ability to create and manage users and reset passwords within a container — a textbook application of least-privilege access control.
+In this exercise, I explored **delegation of control in Active Directory** to distribute administrative tasks while maintaining centralized security oversight.
 
-> 🔎 **Delegation is least privilege in action.** Instead of adding a technician to a powerful group "so they can get their work done," delegation grants only the handful of permissions the role actually requires, scoped to only the objects it should touch. The blast radius if that account is ever compromised shrinks accordingly — a delegated password-reset account can't restructure the domain, because it was never given the rights to.
+**Key Configuration Activities:**
 
+- **Permission Management:** Define and manage administrative access rights.
+- **Delegation of Control:** Assign specific responsibilities to designated users or groups.
+- **Administrative Tasks:** Delegate functions such as user account creation and password resets.
+- **Least Privilege:** Limit administrative permissions based on assigned responsibilities.
+
+This exercise demonstrates practical experience in Active Directory administration, delegated access management, and enterprise security controls.
 ## Device
 
 - **corp-dc-001** – Windows Server – Domain Controller / Active Directory Users and Computers (192.168.20.2)
