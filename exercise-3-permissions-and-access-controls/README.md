@@ -56,8 +56,13 @@ In this exercise, I explored **delegation of control in Active Directory** to di
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "Staff get exactly the administrative authority their job calls for — and not a scrap more. A technician can reset passwords and manage user accounts without ever being handed domain-wide control, so a mistake or a compromised help-desk login can't cascade into a full takeover. It's how we let people do their jobs efficiently while keeping the most powerful rights locked down to the few who genuinely need them."
-
+ Implemented **delegated administrative permissions** in Active Directory to allow users to perform assigned tasks without granting unnecessary privileges.
+>
+ - **Least Privilege:** Restricted administrative access based on job responsibilities.
+ - **Delegated Control:** Enabled designated users to manage accounts and reset passwords without full domain administrator rights.
+ - **Risk Reduction:** Limited the potential impact of compromised accounts or administrative errors.
+>
+> **Business Impact:** Strengthens access security, reduces administrative risk, and supports efficient IT operations.
 ---
 
 [← Previous: Exercise 2 – User Accounts & Groups](../exercise-2-user-accounts-and-groups/README.md) | [Back to Lab Overview](../README.md) | [Next: Exercise 4 – Auditing →](../exercise-4-auditing/README.md)
