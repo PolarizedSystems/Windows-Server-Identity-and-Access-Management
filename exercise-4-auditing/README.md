@@ -17,7 +17,7 @@ In this exercise, I explore **Windows security auditing** to monitor user activi
 - **Group Membership:** Audit changes to security group memberships.
 - **Security Logs:** Review recorded events to investigate potential security issues.
 
-This exercise demonstrates practical experience in Windows security auditing, access monitoring, and enterprise security operations.
+> **This exercise demonstrates practical experience in Windows security auditing, access monitoring, and enterprise security operations.**
 
 ## Device
 
