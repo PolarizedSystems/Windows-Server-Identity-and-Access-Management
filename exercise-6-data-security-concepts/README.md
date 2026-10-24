@@ -73,7 +73,7 @@ Security spending is ultimately a balance against risk, and there are four stand
 - **Acceptance** – knowingly accept a low-likelihood or low-impact risk
 - **Mitigation** – reduce the risk with controls like firewalls and intrusion prevention
 - **Transference** – shift the risk to someone else, such as cyber-insurance or a managed provider
-
+- 
 The right choice weighs the cost of the safeguard against the potential loss — and a data breach's cost is rarely just the cleanup. It includes reputational damage and regulatory fines, which is exactly why security is treated as a business investment, not just an IT expense.
 ---
 
