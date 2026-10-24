@@ -203,11 +203,11 @@
 
 > ### 🎤 Stakeholder Takeaway
 >
-> Implemented centralized **password and account lockout policies** through Active Directory Group Policy to strengthen security across the Windows domain.
+ Implemented centralized **password and account lockout policies** through Active Directory Group Policy to strengthen security across the Windows domain.
 >
-> - **Account Protection:** Enforced consistent password requirements.
-> - **Threat Prevention:** Configured automatic account lockouts after repeated failed login attempts.
-> - **Centralized Management:** Reduced manual administration through domain-wide policy enforcement.
+ - **Account Protection:** Enforced consistent password requirements.
+ - **Threat Prevention:** Configured automatic account lockouts after repeated failed login attempts.
+ - **Centralized Management:** Reduced manual administration through domain-wide policy enforcement.
 >
 > **Business Impact:** Reduces the risk of unauthorized access and password-guessing attacks while improving security consistency across the organization.
 ---
