@@ -8,7 +8,7 @@
 
 **Security auditing** is the process of monitoring and recording user activity, login attempts, and system changes to identify suspicious behavior and maintain accountability. Within **Active Directory**, auditing helps administrators track access to network resources and detect potential security violations.
 
-In this exercise, I explore **Windows security auditing** to monitor user activity and strengthen visibility across the domain.
+In this exercise, I explore **Windows security auditing** to monitor user activity and strengthen visibility across the Polarized Systems domain.
 
 **Key Configuration Activities:**
 
