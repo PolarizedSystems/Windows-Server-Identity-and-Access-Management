@@ -134,8 +134,13 @@ In this exercise, I explored **Active Directory Users and Computers (ADUC)** to 
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "People get access based on their role, not through one-off tweaks to their account. We create an identity once, and from then on access is a matter of which groups they belong to — simple to grant, simple to revoke, and easy to audit. When someone joins, moves teams, or leaves, their access changes in one place, which keeps permissions tidy and cuts the risk of leftover access lingering after it's no longer needed."
-
+> Implemented centralized **user and group management** through Active Directory to simplify access control across the Windows domain.
+>
+> - **Role-Based Access:** Assigned permissions through security groups based on job responsibilities.
+> - **Centralized Management:** Simplified granting, modifying, and revoking user access.
+> - **Security:** Supported least-privilege access and reduced the risk of unnecessary permissions.
+>
+> **Business Impact:** Improves administrative efficiency, strengthens access security, and simplifies user access audits.
 ---
 
 [← Previous: Exercise 1 – Password & Account Lockout Policies](../exercise-1-password-and-account-lockout-policies/README.md) | [Back to Lab Overview](../README.md) | [Next: Exercise 3 – Permissions & Access Controls →](../exercise-3-permissions-and-access-controls/README.md)
