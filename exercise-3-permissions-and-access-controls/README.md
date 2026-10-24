@@ -51,8 +51,7 @@ In this exercise, I explored **delegation of control in Active Directory** to di
    ![Delegation complete](screenshots/exercise-3/e3-06-delegation-complete.png)
 
 > 🔎 **Ron Simmons can manage user accounts and reset passwords within the designated Active Directory container, but cannot modify Group Policy or administer domain controllers.**
-
-This demonstrates least privilege by limiting access to assigned responsibilities..
+> **This demonstrates least privilege by limiting access to assigned responsibilities.**
 
 ---
 
