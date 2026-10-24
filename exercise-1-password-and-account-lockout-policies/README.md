@@ -17,7 +17,7 @@
 - **Group Policy Management:** Applied security policies across the Windows domain.
 - **Policy Enforcement:** Updated Group Policy to apply the configured settings.
 
-This exercise demonstrates practical experience in Windows Server administration, Active Directory security, and centralized access control.
+> **This exercise demonstrates practical experience in Windows Server administration, Active Directory security, and centralized access control.**
 
 ## Device
 
