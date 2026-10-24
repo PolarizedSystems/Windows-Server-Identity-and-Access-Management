@@ -251,7 +251,13 @@ In this exercise, I explore **Windows security auditing** to monitor user activi
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "We now have a record of who signs in, who fails to, and who changes accounts and group memberships across the domain. If an account is brute-forced, if someone is quietly added to an admin group, or if a password is reset without authorization, it leaves a trail we can follow. Auditing doesn't stop an attack on its own — but it's what turns a vague suspicion into a clear timeline, and it's the difference between knowing what happened and only guessing. Fed into our SIEM, these events become live alerts rather than after-the-fact forensics."
+ Implemented **Windows security auditing** to track authentication attempts, account changes, and group membership activity across the Active Directory domain.
+>
+ - **Account Monitoring:** Recorded successful and failed login attempts.
+ - **Change Tracking:** Audited user account modifications and security group changes.
+ - **Threat Detection:** Improved visibility into suspicious activity and unauthorized access attempts.
+>
+> **Business Impact:** Strengthens security visibility, supports incident investigations, and provides valuable event data for centralized SIEM monitoring.
 
 ---
 
