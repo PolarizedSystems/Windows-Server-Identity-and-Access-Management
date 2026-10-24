@@ -128,7 +128,7 @@ In this exercise, I explored **Active Directory Users and Computers (ADUC)** to 
 
     ![Member of updated](screenshots/exercise-2/e2-24-member-of-updated.png)
 
-> 🔎 **Adding a user to the Administrators group grants elevated system privileges. While this demonstrates group-based access control in our lab, production environments should restrict administrative access to authorized personnel. Following the principle of least privilege, users should receive only the permissions necessary to perform their responsibilities, with access reviewed regularly.
+> 🔎 **Adding a user to the Administrators group grants elevated system privileges. While this demonstrates group-based access control in our lab, production environments should restrict administrative access to authorized personnel. Following the principle of least privilege, users should receive only the permissions necessary to perform their responsibilities, with access reviewed regularly.**
 
 ---
 
