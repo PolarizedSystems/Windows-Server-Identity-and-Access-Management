@@ -2,13 +2,18 @@
 
 ![Polarized Systems — Enterprise Network Architecture](images/enterprise-topology.png)
 
-Identity and access management comes down to one deceptively simple question: who is allowed to do what?
+**Identity and Access Management (IAM)** is a framework of policies, processes, and technologies used to manage digital identities and control access to enterprise systems, applications, and data. Through authentication, authorization, and access controls, IAM helps prevent unauthorized access, enforce security policies, and protect sensitive information.
 
-In a Windows domain the answer lives in Active Directory — every account, every group, every permission, and every policy that governs them.
+In this lab, I explore **Microsoft Active Directory and Group Policy Management** to administer user identities, manage permissions, and implement security policies within a Windows domain environment.
 
-Get it right and the right people have exactly the access they need, with a record of who did what; get it wrong and you've either locked out your own staff or handed an attacker the keys.
+**Key Objectives:**
 
-This lab works through the core of server-side identity and access management, hands-on, on a live domain controller.
+- **User Management:** Create and manage Active Directory user accounts.
+- **Access Control:** Configure permissions and user privileges.
+- **Group Policy:** Implement centralized security and access policies.
+- **Security Administration:** Strengthen infrastructure security through consistent identity and access controls.
+
+This lab demonstrates practical skills in Windows Server administration, identity management, and enterprise access control.
 
 All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.
 
