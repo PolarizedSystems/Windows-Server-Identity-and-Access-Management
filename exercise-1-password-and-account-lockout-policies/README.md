@@ -203,8 +203,13 @@
 
 > ### 🎤 Stakeholder Takeaway
 >
-> "Every account in the domain now follows one enforced standard for passwords and lockouts — strong enough to resist guessing and cracking, consistent enough that no one has to remember to set it by hand. If someone tries to brute-force their way in, the account locks them out automatically after a few tries. It's a foundational control that costs nothing to run and quietly closes off one of the most common ways attackers get their first foothold."
-
+> Implemented centralized **password and account lockout policies** through Active Directory Group Policy to strengthen security across the Windows domain.
+>
+> - **Account Protection:** Enforced consistent password requirements.
+> - **Threat Prevention:** Configured automatic account lockouts after repeated failed login attempts.
+> - **Centralized Management:** Reduced manual administration through domain-wide policy enforcement.
+>
+> **Business Impact:** Reduces the risk of unauthorized access and password-guessing attacks while improving security consistency across the organization.
 ---
 
 [← Back to Lab Overview](../README.md) | [Next: Exercise 2 – User Accounts & Groups →](../exercise-2-user-accounts-and-groups/README.md)
