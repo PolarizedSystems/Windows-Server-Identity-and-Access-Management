@@ -15,7 +15,6 @@ In this exercise, I explored how these authentication technologies improve secur
 - **Multifactor Authentication (MFA):** Understand how additional authentication factors protect user accounts.
 - **Single Sign-On (SSO):** Explore how centralized authentication simplifies access to multiple applications.
 - **Identity Security:** Understand how MFA and SSO balance stronger security with user convenience.
-
 This exercise builds foundational knowledge of enterprise authentication, identity protection, and access management.
 ---
 
