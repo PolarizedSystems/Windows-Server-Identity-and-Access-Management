@@ -13,9 +13,9 @@ In this lab, I explore **Microsoft Active Directory and Group Policy Management*
 - **Group Policy:** Implement centralized security and access policies.
 - **Security Administration:** Strengthen infrastructure security through consistent identity and access controls.
 
-This lab demonstrates practical skills in Windows Server administration, identity management, and enterprise access control.
+> **This lab demonstrates practical skills in Windows Server administration, identity management, and enterprise access control.**
 
-All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.
+> **All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.**
 
 ---
 
