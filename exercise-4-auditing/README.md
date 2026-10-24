@@ -6,11 +6,18 @@
 
 ## Overview
 
-Controls decide what *can* happen; auditing records what *did*. Keeping track of logons and account changes is one of the simplest ways to see who is actually reaching a system and what they're doing once they're in. Successful sign-ins show which accounts are gaining access, while a surge of failures often signals something worse — a steady stream of them, especially against a single account, is a classic fingerprint of a brute-force attempt. Attackers who know this spread their guesses across many accounts, trying a few passwords on each before rotating to the next, precisely to stay under lockout thresholds and avoid tripping alarms. Just as important as logons are **account-management events** — every user created, every group membership changed, every password reset — because that's where privilege quietly grows and where an intruder covers their tracks.
+**Security auditing** is the process of monitoring and recording user activity, login attempts, and system changes to identify suspicious behavior and maintain accountability. Within **Active Directory**, auditing helps administrators track access to network resources and detect potential security violations.
 
-In this exercise I enabled auditing at two levels: **object-level auditing** directly on an Active Directory container, and two domain-wide **advanced audit policies** delivered by Group Policy — one for account-logon activity and one for account-management changes.
+In this exercise, I explored **Windows security auditing** to monitor user activity and strengthen visibility across the domain.
 
-> 🔎 **Object auditing vs. policy auditing — two layers.** Setting auditing on an AD object (its SACL) records access to *that specific object*. An advanced audit **policy** pushed by GPO records a *category* of activity — every credential validation, every group change — across the whole domain. Used together, they give both the wide-angle view (domain-wide categories) and the close-up (this exact container), which is what a real investigation needs.
+**Key Configuration Activities:**
+
+- **User Activity:** Monitor and review account-related security events.
+- **Login Auditing:** Track successful and failed authentication attempts.
+- **Group Membership:** Audit changes to security group memberships.
+- **Security Logs:** Review recorded events to investigate potential security issues.
+
+This exercise demonstrates practical experience in Windows security auditing, access monitoring, and enterprise security operations.
 
 ## Device
 
