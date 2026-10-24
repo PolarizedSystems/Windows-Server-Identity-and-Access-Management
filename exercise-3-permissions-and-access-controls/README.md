@@ -17,7 +17,7 @@ In this exercise, I explored **delegation of control in Active Directory** to di
 - **Administrative Tasks:** Delegate functions such as user account creation and password resets.
 - **Least Privilege:** Limit administrative permissions based on assigned responsibilities.
 
-This exercise demonstrates practical experience in Active Directory administration, delegated access management, and enterprise security controls.
+> **This exercise demonstrates practical experience in Active Directory administration, delegated access management, and enterprise security controls.**
 ## Device
 
 - **corp-dc-001** – Windows Server – Domain Controller / Active Directory Users and Computers (192.168.20.2)
