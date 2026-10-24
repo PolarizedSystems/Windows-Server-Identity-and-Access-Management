@@ -49,10 +49,5 @@ A common framework behind modern SSO is **OAuth (Open Authorization)**. OAuth le
 
 ---
 
-> ### 🎤 Stakeholder Takeaway
->
-> "These two controls pull in the same direction from opposite ends. Single sign-on means our people manage one strong identity instead of a dozen weak ones, which is easier for them and easier for us to govern. Multifactor authentication means that one identity can't be hijacked with a stolen password alone — an attacker would also need the user's phone, card, or fingerprint. Together they give us what every organization wants from identity: fewer passwords to go wrong, and far less damage when one does."
-
----
 
 [← Previous: Exercise 4 – Auditing](../exercise-4-auditing/README.md) | [Back to Lab Overview](../README.md) | [Next: Exercise 6 – Data Security Concepts →](../exercise-6-data-security-concepts/README.md)
