@@ -17,7 +17,7 @@ In this exercise, I explored **Active Directory Users and Computers (ADUC)** to 
 - **Security Groups:** Organize users into groups for centralized permission management.
 - **Access Control:** Apply role-based permissions to support the principle of least privilege.
 
-This exercise demonstrates practical experience in Windows Server administration, Active Directory management, and enterprise identity and access control.
+> **This exercise demonstrates practical experience in Windows Server administration, Active Directory management, and enterprise identity and access control.**
 ## Device
 
 - **corp-dc-001** – Windows Server – Domain Controller / Active Directory Users and Computers (192.168.20.2)
