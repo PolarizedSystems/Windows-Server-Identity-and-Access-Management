@@ -134,11 +134,11 @@ In this exercise, I explored **Active Directory Users and Computers (ADUC)** to 
 
 > ### 🎤 Stakeholder Takeaway
 >
-> Implemented centralized **user and group management** through Active Directory to simplify access control across the Windows domain.
+ Implemented centralized **user and group management** through Active Directory to simplify access control across the Windows domain.
 >
-> - **Role-Based Access:** Assigned permissions through security groups based on job responsibilities.
-> - **Centralized Management:** Simplified granting, modifying, and revoking user access.
-> - **Security:** Supported least-privilege access and reduced the risk of unnecessary permissions.
+ - **Role-Based Access:** Assigned permissions through security groups based on job responsibilities.
+ - **Centralized Management:** Simplified granting, modifying, and revoking user access.
+ - **Security:** Supported least-privilege access and reduced the risk of unnecessary permissions.
 >
 > **Business Impact:** Improves administrative efficiency, strengthens access security, and simplifies user access audits.
 ---
