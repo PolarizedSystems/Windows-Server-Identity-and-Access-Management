@@ -15,7 +15,7 @@ In this lab, I explore **Microsoft Active Directory and Group Policy Management*
 
 > **This lab demonstrates practical skills in Windows Server administration, identity management, and enterprise access control.**
 
-> **All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.**
+All work was performed in **Polarized Systems**, my enterprise lab environment: a Windows Active Directory domain (`corp.polarizedsystems.com`) with segmented server, workstation and Security Operations subnets routed through a pfSense firewall.
 
 ---
 
