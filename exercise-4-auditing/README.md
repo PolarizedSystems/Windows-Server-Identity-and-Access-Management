@@ -245,11 +245,12 @@ In this exercise, I explore **Windows security auditing** to monitor user activi
 
     ![Account management audit configured](screenshots/exercise-4/e4-52-account-management-audit-configured.png)
 
-> 🔎 **Account-management auditing is how you catch privilege abuse.** The single most important event to watch in a domain is a change to **security group membership** — because adding an account to a privileged group is exactly how an attacker escalates and how insider misuse happens. Auditing user- and group-management events means every one of those changes leaves a record naming who did it and when. This ties directly back to the detection work in the Security Operations portfolio, where Events 4728/4737 (group changes) were hunted from the collected logs.
+> 🔎 **Monitoring security group membership changes helps detect privilege escalation and unauthorized access.
+> Windows Security Events 4728 and 4732 record additions to security groups, providing valuable evidence for SIEM monitoring and security investigations.
 
 ---
 
-> ### 🎤 Stakeholder Takeaway
+ ### 🎤 Stakeholder Takeaway
 >
  Implemented **Windows security auditing** to track authentication attempts, account changes, and group membership activity across the Active Directory domain.
 >
