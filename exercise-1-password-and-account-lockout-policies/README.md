@@ -6,11 +6,18 @@
 
 ## Overview
 
-The strength of a password policy sits at the heart of how safe a network really is. Set it too weak and accounts become easy pickings; set it too rigid and users start working around it — writing passwords down or recycling tiny variations — which quietly undoes the protection. The goal is a policy strong enough to resist guessing and cracking, yet practical enough that people will actually live with it.
+**Password and account lockout policies** are essential security controls that protect enterprise systems against unauthorized access and password-guessing attacks. Properly configured policies help balance strong account security with user accessibility.
 
-In this exercise I used **Group Policy** on the domain controller to define and enforce a domain-wide **password policy** and **account lockout policy**: password history, age, length and complexity, then lockout duration, threshold and reset timing — scoped to the right users and pushed out across the domain.
+In this exercise, I configured **Active Directory password and account lockout policies** using Windows Group Policy Management.
 
-> 🔎 **Why enforce this through Group Policy instead of per-account?** A Group Policy Object (GPO) linked at the domain level applies the same rules to every account it targets, automatically and consistently. There's no relying on an administrator to remember the settings for each new user — the policy *is* the standard, and it travels with the domain.
+**Key Configuration Activities:**
+
+- **Password Policies:** Defined password complexity, length, and expiration requirements.
+- **Account Lockout:** Configured failed-login thresholds and account lockout settings.
+- **Group Policy Management:** Applied security policies across the Windows domain.
+- **Policy Enforcement:** Updated Group Policy to apply the configured settings.
+
+This exercise demonstrates practical experience in Windows Server administration, Active Directory security, and centralized access control.
 
 ## Device
 
